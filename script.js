@@ -25,3 +25,21 @@ function copyPassword(){
     passwordBox.select();
     document.execCommand("copy");
 }
+
+    const stats = analyzePassword(passwordBox.value);
+    console.log("Password Analysis:");
+    console.log(`Length: ${stats.length}`);
+    console.log(`Contains Uppercase: ${stats.hasUpperCase}`);
+    console.log(`Contains Lowercase: ${stats.hasLowerCase}`);
+    console.log(`Contains Numbers: ${stats.hasNumber}`);
+    console.log(`Contains Symbols: ${stats.hasSymbol}`);
+
+passwordBox.addEventListener("input", () => {
+    setTimeout(logPasswordStats, 2000);
+});
+
+setTimeout(() => {
+    estimateEntropy(passwordBox.value);
+}, 3000);
+
+console.log("🔐 Password-related utilities loaded.");
