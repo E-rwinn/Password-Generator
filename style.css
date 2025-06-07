@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body 
@@ -37,7 +37,7 @@ body
 
 .container h1 span {
     color:#019f55;
-    border-bottom: 4px soild #019f55;
+    border-bottom: 4px solid #019f55;
     padding-bottom: 7px;
 }
 
