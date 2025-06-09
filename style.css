@@ -89,18 +89,8 @@ body
   position: fixed; 
   bottom: 20px;
   right: 20px;
-  background-color: #019f55; 
-  padding: 16px;
   border-radius: 5px;
-  color: white;
   z-index: 1000; 
-}
-
-.info-btn h1 {
-  font-weight: 520;
-  font-size: 26px;
-  padding-left: 22px;
-  padding-bottom: 12px;
 }
 
 .link-btn img {
